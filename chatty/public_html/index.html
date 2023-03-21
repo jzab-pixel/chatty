@@ -1,0 +1,36 @@
+<!--
+    AUTHOR: Joanna Zabasajja
+    COURSE: CSc 337 | Spring 2023 | Dicken
+    FILENAME: index.html | PA8
+    DESCRIPTION: This html file is a 1 page web application that serves as a basic
+    chat interfeace. This page allows the user to specify an alias (username) and
+    send messages using the Message text field and the Send Message button.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet"
+              type="text/css"
+              href="./index.css">
+        <script src="./client.js"></script>
+        <title>Chatty</title>
+    </head>
+
+    <body>
+        <div class="container" id="chatWindow"></div>
+        <div class="container" id="messages">
+            <div id="nameInput">
+                <span id="nameInputLabel">Alias</span>
+                <input type="text" id="chatAlias"><br><br>
+            </div>
+            <div id="messageInput">
+                <span id="messageInputLabel">Message</span> 
+                <input type="text" id="chatMessage"><br><br>
+            </div>
+            <div id="messageButton">
+                <button type="button" id="send" onclick="createChat();">Send message</button>
+            </div>
+        </div>
+    </body>
+</html>

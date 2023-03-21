@@ -1,0 +1,23 @@
+/***
+    AUTHOR: Joanna Zabasajja
+    COURSE: CSc 337 | Spring 2023 | Dicken
+    FILENAME: index.css | PA8
+    DESCRIPTION: This css file dictates the style of index.html
+***/
+#chatWindow{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70%;
+    background-color: #EDE6F2;
+}
+
+#messages {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30%;
+    background-color: #88B7B5;
+}
